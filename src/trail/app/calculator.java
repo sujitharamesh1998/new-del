@@ -26,7 +26,7 @@ public class calculator {
 			System.out.println("Division = " + (num1 / num2));
 			
 			System.out.println("want to calculate again : ");
-			Scanner inn = new Scanner(System.in);
+			Scanner inn =Scanner(System.in);
 			String result = "";
 			result = inn.next();
 			if(result.equals("yes"))
